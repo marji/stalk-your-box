@@ -54,10 +54,10 @@ The Web interface will be available at http://12.34.56.78/nagios3/ and http://12
 
 ### Basic access authentication
 The manifest deployes basic authentication with these defaults:
--   The Munin app:  munin:Prague2013
--   The Nagios app: nagiosadmin:Prague2013
+-   The Munin app:  `munin:Prague2013`
+-   The Nagios app: `nagiosadmin:Prague2013`
 
-Please change the credentials in `/opt/stalk-your-box/manifest.pp` anytime a run `puppet apply`.
+Please change the credentials in `/opt/stalk-your-box/manifest.pp` anytime and run `puppet apply`.
 
 ## Notes
 -   If your dev server is in a home network and you don't get any emails, it might be that some providers block outgoing port 25.
