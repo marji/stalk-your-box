@@ -26,7 +26,7 @@
 #
 # === Authors
 #
-# Marji Cermak <marji@morpht.com>, www.morpht.com
+# Marji Cermak <marji@morpht.com>, http://morpht.com
 #
 class munin::server ( 
     $htuser = 'Munin',
