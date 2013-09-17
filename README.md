@@ -57,7 +57,7 @@ The manifest deployes basic authentication with these defaults:
 -   The Munin app:  munin:Prague2013
 -   The Nagios app: nagiosadmin:Prague2013
 
-Please change them in `/opt/stalk-your-box/manifest.pp` anytime a run `puppet apply` again.
+Please change the credentials in `/opt/stalk-your-box/manifest.pp` anytime a run `puppet apply`.
 
 ## Notes
 -   If your dev server is in a home network and you don't get any emails, it might be that some providers block outgoing port 25.
