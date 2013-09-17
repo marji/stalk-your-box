@@ -43,7 +43,7 @@ Get the repo:
 git clone git://github.com/marji/stalk-your-box.git /tmp/stalk-your-box
 sudo mv /tmp/stalk-your-box /opt/stalk-your-box
 ```
-**Recommended:** edit / review the `/opt/stalk-your-box/manifest.pp` in your favourite editor - e.g. to change the email address for nagios alerts, or perhaps to comment out the nagios or munin classes to prevent one of these components to install.
+**Recommended:** edit or review the `/opt/stalk-your-box/manifest.pp` in your favourite editor - you might want to change the email address for nagios alerts, the Basic access authentication or perhaps comment out the nagios or munin classes to prevent one of these two components to install.
 
 Then run puppet apply:  
 ```
