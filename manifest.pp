@@ -41,5 +41,6 @@ class { 'munin::server':
 class { 'nagios::server':
   contact_email => 'root@localhost', # Feel free to change. Email to send alerts to.
   htpass        => 'Prague2013',     # Feel free to change. Password for the nagiosadmin username.
-  # note: the nagiosadmin username is the default which comes with nagios3 package.
+  # note: the nagiosadmin username is the default which comes with the nagios3 package.
 }
+

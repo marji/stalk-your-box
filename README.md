@@ -1,7 +1,9 @@
 # Stalk Your Box
 
-This manifest was created as part of a simple demo for a presentation at DrupalCon Prague 2013:
+This manifest was created as part of a simple demo for our presentation at DrupalCon Prague 2013:
   https://prague2013.drupal.org/session/have-you-been-stalking-your-servers
+
+It installs Munin and Nagios on your server and protects them with Basic access authentication.
 
 ## Description
 A small Puppet manifest to get you started with monitoring your dev LAMP server.
@@ -51,8 +53,9 @@ sudo puppet apply --modulepath=/opt/stalk-your-box/modules /opt/stalk-your-box/m
 The Web interface will be available at http://12.34.56.78/nagios3/ and http://12.34.56.78/munin/, where 12.34.56.78 is the IP address of the server this manifest is applied on. 
 
 ### Basic access authentication
-The Munin app:  munin:Prague2013
-The Nagios app: nagiosadmin:Prague2013
+The manifest deployes basic authentication with these defaults:
+-   The Munin app:  munin:Prague2013
+-   The Nagios app: nagiosadmin:Prague2013
 
 Please change them in `/opt/stalk-your-box/manifest.pp` anytime a run `puppet apply` again.
 
