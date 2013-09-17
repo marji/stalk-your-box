@@ -52,6 +52,8 @@ sudo puppet apply --modulepath=/opt/stalk-your-box/modules /opt/stalk-your-box/m
 
 The Web interface will be available at http://12.34.56.78/nagios3/ and http://12.34.56.78/munin/, where 12.34.56.78 is the IP address of the server this manifest is applied on. 
 
+It might take at least 15 minutes before you will be able to see *some* values in the Munin graphs.
+
 ### Basic access authentication
 The manifest deployes basic authentication with these defaults:
 -   The Munin app:  `munin:Prague2013`
